@@ -1,0 +1,28 @@
+// Desktop
+@use './common/_header/header' as *;
+@use './common/_head/head' as *;
+@use './common/_decorate/decorate' as *;
+@use './common/_nav-btn/nav-btn' as *;
+@use './common/_contacts/contacts' as *;
+@use './common/_contacts/_btn-request/btn-request' as *;
+@use './common/_contacts/_icon/icon' as *;
+@use './common/_contacts/_line-decorate/line-decorate' as *;
+@use './common/_contacts/_text/text' as *;
+
+// Laptop
+@use './laptop/_header/header' as *;
+@use './laptop/_head/head' as *;
+@use './laptop/_decorate/decorate' as *;
+
+// Tablet 
+@use './tablet/_head/head' as *;
+@use './tablet/_contacts/contacts' as *;
+@use './tablet/_contacts/_line-decorate/line-decorate' as *;
+@use './tablet/_btn_mobile-header/btn-mobile-header' as *;
+@use './tablet/_btn_mobile-header/_stick/stick' as *;
+
+// Phone
+@use './phone/_head/head' as *;
+@use './phone/_decorate/decorate' as *;
+@use './phone/_contacts/_btn-request/btn-request' as *;
+@use './phone/_contacts/contacts' as *;

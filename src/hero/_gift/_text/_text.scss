@@ -1,0 +1,25 @@
+@use '../../../mixins/fonts.scss';
+@use '../../../mixins/colors.scss';
+@use 'sass:map';
+
+.hero{
+    &__gift--text1{
+        @include fonts.Manrope(20px, 400, 100%, 0em);
+        color: map.get(colors.$colors, white);
+        align-self: flex-end
+    }
+
+    &__gift--text2{
+        @include fonts.Noto-sans(29px, 500, 100%, -1px);
+        color: map.get(colors.$colors, white);
+    }
+
+    &__list-item--text{
+        @include fonts.Noto-sans(16px, 400, 24px, 0px);
+        color: map.get(colors.$colors, white);
+        border-radius: 16px;
+        padding: 6px 16px;
+        background-color: rgba(30, 134, 62, 1);
+        width: fit-content;
+    }
+}

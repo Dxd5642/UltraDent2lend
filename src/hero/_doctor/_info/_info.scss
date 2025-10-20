@@ -1,0 +1,16 @@
+.hero{
+    &__doctor-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 16px;
+        position: absolute;
+        left: -254px;
+        top: 42px;
+
+        &--logo{
+            width: 20px;
+            height: 20px;
+        }
+    }
+}

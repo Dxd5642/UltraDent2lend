@@ -1,0 +1,17 @@
+.header{
+    &__head{
+        margin-top: 20px;
+        margin-bottom: 16px;
+        width: 1880px;
+        max-width: 1880px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__nav{
+        display: flex;
+        gap: 16px;
+    }
+}

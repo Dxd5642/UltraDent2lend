@@ -1,0 +1,14 @@
+.hero{
+    &__doctor-promo{
+        border-radius: 16px;
+        background-color: rgba(255, 225, 71, 1);
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        position: absolute;
+        bottom: -82px;
+        right: -62px;
+    }
+}

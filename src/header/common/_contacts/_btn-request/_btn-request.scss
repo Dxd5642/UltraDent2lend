@@ -1,0 +1,28 @@
+@use '../../../../mixins/colors.scss' as *;
+@use '../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.header{
+    &__btn-request{
+        @include fonts.Noto-sans(14px, 500, 20px, -0.5px);
+        color: map.get($colors, secondary);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        border-radius: 16px;
+        border: 1px solid map.get($colors, secondary);
+        height: 40px;
+        width: 221px;
+        background-color: rgba($color: #000000, $alpha: 0.0);
+
+        &:hover{
+            border: 1px solid map.get($colors, secondary);
+        }
+
+        &:active{
+            color: map.get($colors, white);
+            background-color: map.get($colors, secondary);
+        }
+    }
+}

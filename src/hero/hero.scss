@@ -1,0 +1,29 @@
+// Desktop
+@use './_new-tooth/_text/text' as *;
+@use './_new-tooth/new-tooth' as *;
+@use './_new-tooth/_img/img' as *;
+@use './_doctor/_text/text' as *;
+
+@use './_gift/gift' as *;
+@use './_gift/_list/list' as *;
+@use './_gift/_text/text' as *;
+
+@use './_doctor/doctor' as *;
+@use './_doctor/_img/img' as *;
+@use './_doctor/_fio/fio' as *;
+@use './_doctor/_text/text' as *;
+@use './_doctor/_promo/promo' as *;
+@use './_doctor/_info/info' as *;
+
+.hero{
+    padding-top: 56px;
+    background-color: rgba(67, 185, 105, 1);
+
+    &__content{
+        display: flex;
+        width: 100%;
+        max-width: 1504px;
+        position: relative;
+        justify-content: space-between;
+    }
+}

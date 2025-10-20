@@ -1,0 +1,24 @@
+@use '../../../mixins/fonts.scss';
+@use '../../../mixins/colors.scss';
+@use 'sass:map';
+
+.header{
+    &__nav-btn{
+        border: 1px solid map.get(colors.$colors, white);
+        @include fonts.Noto-sans(16px, 500, 20px, -0.5px);
+        color: map.get(colors.$colors, secondary);
+        padding: 10px 16px;
+        border-radius: 16px;
+
+        background-color: rgba(255, 255, 255, 0.0);
+
+        &:hover{
+            border: 1px solid map.get(colors.$colors, secondary);
+        }
+
+        &:active{
+            color: map.get(colors.$colors, white);
+            background-color: map.get(colors.$colors, secondary);
+        }
+    }
+}

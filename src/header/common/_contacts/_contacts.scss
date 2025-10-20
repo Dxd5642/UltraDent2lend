@@ -1,0 +1,13 @@
+.header{
+    &__contacts{
+        display: flex;
+        gap: 32px;
+        align-items: center;
+    }
+
+    &__contacts-block{
+        display: flex;
+        gap: 7.5px;
+        align-items: center;
+    }
+}

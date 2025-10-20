@@ -1,0 +1,21 @@
+@use '../../../../mixins/colors.scss';
+@use '../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.header{
+    &__contacts-text{
+        @include fonts.Noto-sans(12px, 500, 16px, -0.5px);
+        color: map.get(colors.$colors, grey);
+
+        &_black{
+            color: map.get(colors.$colors, secondary);
+            font-size: 14px;
+            line-height: 20px;
+        }
+
+        &_green{
+            color: map.get(colors.$colors, primary);
+            font-weight: 700;
+        }
+    }
+}

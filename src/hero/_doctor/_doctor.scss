@@ -1,0 +1,15 @@
+.hero{
+    &__doctor{
+        max-width: 359px;
+        width: 359px;
+        max-height: 415px;
+        height: 415px;
+        border-radius: 16px;
+        background-color: rgba(218, 241, 255, 1);
+        display: flex;
+        justify-content: center;
+        margin-top: 139px;
+        margin-bottom: 169px;
+        position: relative;
+    }
+}

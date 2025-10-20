@@ -1,0 +1,11 @@
+.hero{
+    &__new-tooth{
+        width: 373px;
+        max-width: 373px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 60px;
+        gap: 6px;
+    }
+}

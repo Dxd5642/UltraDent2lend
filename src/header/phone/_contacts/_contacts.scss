@@ -1,0 +1,23 @@
+@media (max-width: 500px) {
+    .header{
+        &__contacts{
+            gap: 28px;
+        }
+    }
+}
+
+@media (max-width: 410px) {
+    .header{
+        &__contacts{
+            gap: 16px;
+        }
+    }
+}
+
+@media (max-width: 370px) {
+    .header{
+        &__contacts{
+            gap: 8px;
+        }
+    }
+}

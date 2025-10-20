@@ -1,0 +1,8 @@
+// Desktop
+@use './common/_body-parent/body-parent' as *;
+
+// Laptop
+@use './laptop/_body-parent/body-parent' as *;
+
+// Phone
+@use './phone/_body-parent/body-parent' as *;

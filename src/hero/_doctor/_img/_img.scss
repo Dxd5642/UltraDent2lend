@@ -1,0 +1,10 @@
+.hero{
+    &__img-doctor{
+        min-width: 288px;
+        max-width: 288px;
+        min-height: 449px;
+        max-height: 449px;
+        position: absolute;
+        bottom: 0px;
+    }
+}

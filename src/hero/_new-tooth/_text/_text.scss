@@ -1,0 +1,37 @@
+@use '../../../mixins/colors.scss';
+@use '../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.hero{
+    &__text-1{
+        @include fonts.Noto-sans(48px, 600, 40px, -4px);
+        color: map.get(colors.$colors, white);
+        min-width: 630px;
+    }
+
+    &__text-2{
+        @include fonts.Noto-sans(32px, 500, 40px, 0px);
+        color: map.get(colors.$colors, white);
+        align-self: flex-start;
+    }
+
+    &__text-3-block{
+        width: auto;
+        height: auto;
+        padding: 10px;
+        background-color: map.get(colors.$colors, white);
+        border-radius: 16px;
+    }
+
+    &__text-3{
+        @include fonts.Noto-sans(29px, 800, 40px, -2px);
+        font-style: italic;
+        color: rgba(67, 185, 105, 1);
+    }
+
+    &__text-4{
+        @include fonts.Noto-sans(32px, 500, 40px, 0px);
+        color: map.get(colors.$colors, white);
+        align-self: flex-end;
+    }
+}

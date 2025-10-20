@@ -1,0 +1,8 @@
+@media (max-width: 1440px) {
+    .header{
+        &__decorate{
+            width: calc(100% - 32px);
+            transform: translateY(44px);
+        }
+    }
+}

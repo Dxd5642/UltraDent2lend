@@ -1,0 +1,16 @@
+.header{
+    &__decorate{
+        position: absolute;
+        width: calc(100% - 40px);
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 255, 0);
+        transform: translateY(46px);
+    }
+
+    &__corner{
+        &:nth-of-type(2){
+            transform: scale(-1, 1);
+        }
+    }
+}

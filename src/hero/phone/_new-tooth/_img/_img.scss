@@ -1,0 +1,17 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__img-jaw{
+            width: 189px;
+            height: 169px;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .hero{
+        &__img-jaw{
+            position: absolute;
+            top: 122px;
+        }
+    }
+}

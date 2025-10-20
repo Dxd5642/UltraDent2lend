@@ -1,0 +1,27 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__doctor-info{
+            left: -210px;
+            top: 60px;
+            gap: 10px;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .hero{
+        &__doctor-info{
+            left: -106px;
+            top: unset;
+            bottom: -126px;
+        }
+    }
+}
+
+@media (max-width: 386px) {
+    .hero{
+        &__doctor-info{
+            left: calc(-1 * ((100dvw - 219px) - (((100dvw - 219px) / 2) - 17px)));
+        }
+    }
+}

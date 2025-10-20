@@ -1,0 +1,25 @@
+@media (max-width: 1460px) {
+    .hero{
+        &__gift{
+            margin-top: 444px;
+            margin-bottom: 32px;
+            margin-right: 94px;
+        }
+    }
+}
+
+@media (max-width: 1398px) {
+    .hero{
+        &__gift{
+            margin-right: 120px;
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .hero{
+        &__gift{
+            margin-right: 469px;
+        }
+    }
+}

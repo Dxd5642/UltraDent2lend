@@ -1,0 +1,17 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__doctor-promo{
+            bottom: -100px;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .hero{
+        &__doctor-promo{
+            bottom: -294px;
+            left: -23px;
+            right: unset;
+        }
+    }
+}

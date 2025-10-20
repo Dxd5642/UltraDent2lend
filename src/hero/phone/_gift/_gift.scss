@@ -1,0 +1,38 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__gift{
+            width: calc(100dvw - 64px);
+            max-width: 329px;
+            margin: 0px;
+            margin-top: 287px;
+            margin-bottom: 26px;
+            align-self: unset;
+        }
+    }
+}
+
+@media (max-width: 1140px) {
+    .hero{
+        &__gift{
+            margin: 0px;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .hero{
+        &__gift{
+            order: 3;
+            margin-top: 32px;
+            margin-bottom: 32px;
+        }
+    }
+}
+
+@media (max-width: 394px) {
+    .hero{
+        &__gift{
+            width: calc(100dvw - 32px);
+        }
+    }
+}

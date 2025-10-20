@@ -1,0 +1,22 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__new-tooth{
+            width: 283px;
+            max-width: unset;
+            position: relative;
+            left: unset;
+            margin-top: 32px;
+            margin-left: 70px;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .hero{
+        &__new-tooth{
+            margin-left: unset;
+            margin-top: 16px;
+            padding-bottom: 155px;
+        }
+    }
+}

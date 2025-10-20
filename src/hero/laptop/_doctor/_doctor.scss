@@ -1,0 +1,30 @@
+@media (max-width: 1530px){
+    .hero{
+        &__doctor{
+            margin-right: 105px;
+        }
+    }
+}
+
+@media (max-width: 1460px) {
+    .hero{
+        &__doctor{
+            margin-right: 0px;
+            position: absolute;
+            right: 98px;
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .hero{
+        &__doctor-job{
+            font-size: 10px;
+        }
+        
+        &__doctor{
+            margin-top: 93px;
+            right: 63px;
+        }
+    }
+}

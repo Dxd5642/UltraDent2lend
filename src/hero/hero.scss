@@ -1,19 +1,43 @@
 // Desktop
-@use './_new-tooth/_text/text' as *;
-@use './_new-tooth/new-tooth' as *;
-@use './_new-tooth/_img/img' as *;
-@use './_doctor/_text/text' as *;
+@use './common/_new-tooth/_text/text' as *;
+@use './common/_new-tooth/new-tooth' as *;
+@use './common/_new-tooth/_img/img' as *;
+@use './common/_doctor/_text/text' as *;
 
-@use './_gift/gift' as *;
-@use './_gift/_list/list' as *;
-@use './_gift/_text/text' as *;
+@use './common/_gift/gift' as *;
+@use './common/_gift/_list/list' as *;
+@use './common/_gift/_text/text' as *;
 
-@use './_doctor/doctor' as *;
-@use './_doctor/_img/img' as *;
-@use './_doctor/_fio/fio' as *;
-@use './_doctor/_text/text' as *;
-@use './_doctor/_promo/promo' as *;
-@use './_doctor/_info/info' as *;
+@use './common/_doctor/doctor' as *;
+@use './common/_doctor/_img/img' as *;
+@use './common/_doctor/_fio/fio' as *;
+@use './common/_doctor/_text/text' as *;
+@use './common/_doctor/_promo/promo' as *;
+@use './common/_doctor/_info/info' as *;
+
+// Laptop
+@use './laptop/_new-tooth/new-tooth' as *;
+@use './laptop/_doctor/doctor' as *;
+@use './laptop/_doctor/_fio/fio' as *;
+@use './laptop/_gift/gift' as *;
+@use './laptop/_new-tooth/_img/img' as *;
+@use './laptop/_doctor/_text/text' as *;
+@use './laptop/_doctor/_promo/promo' as *;
+
+// Phone
+@use './phone/_new-tooth/new-tooth' as *;
+@use './phone/_new-tooth/_img/img' as *;
+@use './phone/_new-tooth/_text/text' as *;
+@use './phone/_gift/gift' as *;
+@use './phone/_gift/_list/list' as *;
+@use './phone/_gift/_text/text' as *;
+@use './phone/_doctor/doctor' as *;
+@use './phone/_doctor/_fio/fio' as *;
+@use './phone/_doctor/_img/img' as *;
+@use './phone/_doctor/_info/info' as *;
+@use './phone/_doctor/_promo/promo' as *;
+@use './phone/_doctor/_text/text' as *;
+
 
 .hero{
     padding-top: 56px;
@@ -22,8 +46,43 @@
     &__content{
         display: flex;
         width: 100%;
-        max-width: 1504px;
+        max-width: 1764px;
         position: relative;
         justify-content: space-between;
+    }
+}
+
+@media (max-width: 1460px) {
+    .hero{
+        &__content{
+            min-width: 100%;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 1366px) {
+    .hero{
+        &__content{
+            justify-content: flex-end;
+        }
+    }
+}
+
+@media (max-width: 1164px) {
+    .hero{
+        &__content{
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .hero{
+        &__content{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

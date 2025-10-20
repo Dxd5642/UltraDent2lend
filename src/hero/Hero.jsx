@@ -22,7 +22,7 @@ function Hero (){
                     </div>
                     <div className='hero__gift'>
                         <p className='hero__gift--text1'>Ответьте на 4 вопроса —</p>
-                        <p className='hero__gift--text2'>Получите расчёт для вашего случая + подарки: заменить шрифт</p>
+                        <p className='hero__gift--text2'>Получите расчёт для вашего случая + подарки:</p>
                         <div className='hero__list'>
                             <p className='hero__list-item--text'>Консультация имплантолога и план лечения — 0 ₽</p>
                             <p className='hero__list-item--text'>КТ и удаление зубов при лечении в клинике — 0 ₽</p>
@@ -33,7 +33,7 @@ function Hero (){
                         <img src={imgDoctor} alt="Нестеров Алексей Евгеньевич" className='hero__img-doctor'/>
                         <p className='hero__doctor-experience'>Стаж  23+ лет</p>
                         <div className='hero__doctor-fio'>
-                            <p className='hero__doctor-surname'><b>Нестеров</b></p>
+                            <p className='hero__doctor-surname'>Нестеров</p>
                             <p className='hero__doctor-firstname'>Алексей Евгеньевич</p>
                             <p className='hero__doctor-job'>Ведущий ортопед, гнатолог, главный врач</p>
                         </div>
@@ -43,7 +43,7 @@ function Hero (){
                             <p className='hero__promo-data'>Акция до 31 октября</p>
                         </div>
                         <div className='hero__doctor-info'>
-                            <p className='hero__doctor-info--text'><img src={logoPercent} alt="" className='hero__doctor-info--logo'/>Рассрочка <b><i>0%</i></b> на <b><i>24 месяца</i></b></p>
+                            <p className='hero__doctor-info--text'><img src={logoPercent} alt="" className='hero__doctor-info--logo'/>Рассрочка <b><i>0%</i></b> на <b><i>24 месяца</i></b></p>
                             <p className='hero__doctor-info--text_white'>Проводил имплантацию<br />и протезирование:</p>
                             <p className='hero__doctor-info--text'><img src={logoUSA} alt="" className='hero__doctor-info--logo'/>в клиниках США</p>
                             <p className='hero__doctor-info--text'><img src={logoUK} alt="" className='hero__doctor-info--logo'/>в клиниках Великобритании</p>

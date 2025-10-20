@@ -1,5 +1,5 @@
-@use '../../../mixins/fonts.scss';
-@use '../../../mixins/colors.scss';
+@use '../../../../mixins/fonts.scss';
+@use '../../../../mixins/colors.scss';
 @use 'sass:map';
 
 .hero{
@@ -21,5 +21,22 @@
         padding: 6px 16px;
         background-color: rgba(30, 134, 62, 1);
         width: fit-content;
+    }
+}
+
+@media (max-width: 1164px) {
+    .hero{
+        &__gift--text2{
+            font-size: 22px;
+            text-align: right;
+        }
+
+        &__list-item--text{
+            text-align: center;
+            width: 100%;
+            padding: 6px;
+            font-size: 12px;
+            letter-spacing: -0.5px;
+        }
     }
 }

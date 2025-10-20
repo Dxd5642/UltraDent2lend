@@ -1,0 +1,16 @@
+@media (max-width: 1530px){
+    .hero{
+        &__doctor-fio{
+            right: -109px;
+        }
+    }
+}
+
+
+@media (max-width: 1366px) {
+    .hero{
+        &__doctor-fio{
+            right: -94px;
+        }
+    }
+}

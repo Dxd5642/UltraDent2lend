@@ -1,0 +1,10 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__img-doctor{
+            min-width: 170px;
+            min-height: 265px;
+            max-width: 170px;
+            max-height: 265px; 
+        }
+    }
+}

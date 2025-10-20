@@ -1,0 +1,24 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__doctor{
+            max-width: 219px;
+            max-height: 249px;
+            margin: 0px;
+            margin-top: 48px;
+            margin-right: 70px;
+            position: relative;
+            right: unset;
+        }
+    }
+}
+
+@media (max-width: 1040px) {
+    .hero{
+        &__doctor{
+            margin: 0px;
+            margin-top: 54px;
+            right: -33px;
+            margin-bottom: 299px;
+        }
+    }
+}

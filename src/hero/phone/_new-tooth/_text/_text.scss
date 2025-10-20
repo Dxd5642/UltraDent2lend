@@ -1,0 +1,29 @@
+@media (max-width: 1164px) {
+    .hero{
+        &__text-1{
+            font-size: 22px;
+            line-height: 20px;
+            letter-spacing: -2px;
+            min-width: unset;
+        }
+
+        &__text-2{
+            font-size: 22px;
+            line-height: 24px;
+        }
+
+        &__text-3-block{
+            padding: 2px 10px;
+            width: fit-content;
+        }
+
+        &__text-3{
+            font-size: 20px;
+        }
+
+        &__text-4{
+            font-size: 22px;
+            line-height: 24px;
+        }
+    }
+}

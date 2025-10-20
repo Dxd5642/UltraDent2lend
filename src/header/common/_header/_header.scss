@@ -1,13 +1,14 @@
 .header{
     position: fixed;
     top: 0px;
-    width: 100%;
+    width: 100vw;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
     flex-direction: column;
+    z-index: 1000;
 
     &__container{
         padding: 0px 20px;

@@ -1,0 +1,38 @@
+@use '../../../mixins/colors.scss';
+@use '../../../mixins/fonts.scss';
+@use "sass:map";
+
+
+.bottom1{
+    &__title{
+        display: flex;
+        gap: 8px;
+        @include fonts.Noto-sans(32px, 500, 40px, 0px);
+        color: map.get(colors.$colors, white);
+        align-items: center;
+        justify-content: center;
+
+        &_white{
+            padding: 6px 16px;
+            border-radius: 16px;
+            background-color: map.get(colors.$colors, white);
+            font-style: italic;
+            font-weight: 800;
+            letter-spacing: -2px;
+            text-transform: uppercase;
+            color: rgba(30, 134, 62, 1)
+        }
+    }
+    
+    &__text{
+            @include fonts.Noto-sans(20px, 400, 24px, 0px);
+            color: map.get(colors.$colors, white);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            padding-right: 16px;
+            border-radius: 16px;
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+}

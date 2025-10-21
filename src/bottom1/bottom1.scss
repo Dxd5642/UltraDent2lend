@@ -1,0 +1,30 @@
+// Desktop
+@use './common/_text/text' as *;
+@use './common/_icon/icon' as *;
+@use './common/_list/list' as *;
+
+// Phone
+@use './phone/_text/text' as *;
+
+.bottom1{
+    background-color: rgba(30, 134, 62, 1);
+    &__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+        padding: 32px 0px;
+    }
+}
+
+@media (max-width: 700px) {
+    .bottom1{
+        border: 16px solid rgba(67, 185, 105, 1);
+        border-top: 0px;
+        border-bottom: 0px;
+        &__content{
+            padding: 16px 0px;
+        }
+    }
+}

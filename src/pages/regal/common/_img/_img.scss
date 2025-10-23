@@ -1,0 +1,15 @@
+.regal{
+    &__main-img{
+        width: 842px;
+        height: 656px;
+        aspect-ratio: 421/328;
+        border-radius: 16px;
+        background-image: url('../../../../assets/images/regal/main-img.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 50px;
+        margin-bottom: 115px;
+        margin-left: 37px;
+    }
+}

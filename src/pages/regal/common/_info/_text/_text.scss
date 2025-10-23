@@ -1,0 +1,20 @@
+@use '../../../../mixins/colors.scss';
+@use '../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.regal{
+    &__title{
+        @include fonts.Noto-sans-extra(29px, 500, 100%, -1px);
+        color: map.get(colors.$colors, secondary);
+
+        &_green{
+            color: rgba(67, 185, 105, 1);
+            font-weight: 700;
+        }
+    }
+
+    &__chackbox--text{
+        @include fonts.Noto-sans(14px, 400, 20px, 0.25px);
+        color: map.get(colors.$colors, secondary);
+    }
+}

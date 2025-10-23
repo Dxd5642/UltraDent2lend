@@ -1,0 +1,12 @@
+@use '../../../../mixins/colors.scss';
+@use '../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.regal{
+    &__widget{
+        &--text{
+            @include fonts.Noto-sans(16px, 400, 22px, 0px);
+            color: map.get(colors.$colors, secondary);
+        }
+    }
+}

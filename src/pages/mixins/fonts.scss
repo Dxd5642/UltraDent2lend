@@ -1,0 +1,60 @@
+@font-face{
+  font-family: Noto-sans;
+  src: url("../../assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth,wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: Noto-sans-extra;
+  src: url("../../assets/fonts/Noto Sans Oriya ExtraCondensed (1)/NotoSansOriya_ExtraCondensed-Black.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face{
+  font-family: Manrope;
+  src: url("../../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+@mixin Noto-sans(
+  $font-size: 16px,
+  $font-weight: 500,
+  $line-height: 100%,
+  $letter-spacing: -0.5px
+){
+  font-family: Noto-sans, sans-serif;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin Noto-sans-extra(
+  $font-size: 16px,
+  $font-weight: 500,
+  $line-height: 100%,
+  $letter-spacing: -0.5px
+){
+  font-family: Noto-sans-extra, sans-serif;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+@mixin Manrope(
+  $font-size: 16px,
+  $font-weight: 500,
+  $line-height: 100%,
+  $letter-spacing: -0.5px
+){
+  font-family: Manrope, sans-serif;
+  font-size: $font-size;
+  font-style: normal;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+

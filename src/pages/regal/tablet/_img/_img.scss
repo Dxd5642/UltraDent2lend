@@ -1,0 +1,16 @@
+@media (max-width: 1354px) {
+    .regal{
+        &__main-img{
+            width: 676px;
+            height: 527px;
+        }
+    }
+}
+
+@media (max-width: 1184px) {
+    .regal{
+        &__main-img{
+            margin-left: 0px;
+        }
+    }
+}

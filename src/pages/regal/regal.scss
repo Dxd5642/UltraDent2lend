@@ -1,0 +1,79 @@
+// Desktop
+@use './common/_img/img' as *;
+@use './common/_widget/_img/img' as *;
+@use './common/_widget/widget' as *;
+@use './common/_widget/_text/text' as *;
+@use './common/_info/info' as *;
+@use './common/_info/_img/img' as *;
+@use './common/_info/_text/text' as *;
+
+// Laptop
+@use './laptop/_img/img' as *;
+
+// Tablet
+@use './tablet/_img/img' as *;
+
+// Phone
+@use './phone/_img/img' as *;
+@use './phone/_info/info' as *;
+@use './phone/_widget/_img/img' as *;
+@use './phone/_widget/widget' as *;
+@use './phone/_widget/_text/text' as *;
+
+.regal{
+    background-color: rgba(67, 185, 105, 1);
+
+    &__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow-x: hidden;
+    }
+
+    &__widgets{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        position: relative;
+        left: -37px;
+    }
+
+    &__checkbox{
+        display: flex;
+        align-items: center;
+        gap: 19px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .regal{
+        &__widgets{
+            left: -113px;
+        }
+    }
+}
+
+@media (max-width: 1184px) {
+    .regal{
+        &__content{
+            flex-direction: column;
+        }
+
+        &__widgets{
+            left: 0px;
+            top: -41px;
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 754px) {
+    .regal{
+        &__widgets{
+            top: 0px;
+            margin: 0px;
+            margin-bottom: 30px;
+        }
+    }
+}

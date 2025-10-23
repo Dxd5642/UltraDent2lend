@@ -1,0 +1,18 @@
+@media (max-width: 754px) {
+    .regal{
+        &__main-img{
+            width: 329px;
+            height: 256px;
+            margin-top: 30px;
+            margin-bottom: 45px;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .regal{
+        &__main-img{
+            width: calc(100dvw - 32px);
+        }
+    }
+}

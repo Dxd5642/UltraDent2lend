@@ -1,0 +1,12 @@
+
+@media (max-width: 514px) {
+    .regal{
+        &__widget{
+            width: calc(100dvw - 48px);
+            max-width: 345px;
+            height: auto;
+            min-height: unset;
+            max-height: 84px;
+        }
+    }
+}

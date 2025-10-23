@@ -1,0 +1,10 @@
+@media (max-width: 514px) {
+    .regal{
+        &__widget{
+            &--img{
+                width: 60px;
+                transform: translateY(-9px);
+            }
+        }
+    }
+}

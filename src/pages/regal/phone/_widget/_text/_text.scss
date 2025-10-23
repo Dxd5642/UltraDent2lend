@@ -1,0 +1,11 @@
+
+@media (max-width: 514px) {
+    .regal{
+        &__widget{
+            &--text{
+                font-size: 14px;
+                line-height: 100%;
+            }
+        }
+    }
+}

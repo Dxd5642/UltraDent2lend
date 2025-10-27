@@ -1,0 +1,10 @@
+@use '../../../../../mixins/colors.scss';
+@use '../../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.qwizRequest{
+    &__toggleAgree--text{
+        @include fonts.Noto-sans(14px, 400, 20px, 0px);
+        color: map.get(colors.$colors, secondary);
+    }
+}

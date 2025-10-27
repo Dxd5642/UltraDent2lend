@@ -1,0 +1,8 @@
+@use '../../../../../mixins/colors.scss';
+@use '../../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.qwiz__nav-btn--text{
+    @include fonts.Noto-sans(14px, 600, 20px, -0.5px);
+    color: map.get(colors.$colors, secondary);
+}

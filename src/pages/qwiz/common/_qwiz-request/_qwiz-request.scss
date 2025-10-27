@@ -1,0 +1,8 @@
+.qwizRequest{
+    gap: 16px;
+    max-height: 254px;
+
+    &.active{
+        max-height: unset;
+    }
+}

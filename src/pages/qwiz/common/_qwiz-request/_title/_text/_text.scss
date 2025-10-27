@@ -1,0 +1,15 @@
+@use '../../../../../mixins/colors.scss';
+@use '../../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.qwizRequest{
+    &__title-text{
+        @include fonts.Noto-sans(28px, 500, 36px, 0px);
+        color: map.get(colors.$colors, secondary);
+
+        &--small{
+            @include fonts.Noto-sans(14px, 400, 20px, 0.25px);
+            color: map.get(colors.$colors, secondary);
+        }
+    }
+}

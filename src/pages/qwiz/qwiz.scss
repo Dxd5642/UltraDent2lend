@@ -1,0 +1,42 @@
+// Desktop
+@use './common/_title-block/block' as *;
+@use './common/_title-block/_text/text' as *;
+@use './common/_qwiz-block/block' as *;
+@use './common/_qwiz-block/_title-block/title-block' as *;
+@use './common/_qwiz-block/_title-block/_text/text' as *;
+@use './common/_nav/nav' as *;
+@use './common/_nav/_btn/btn' as *;
+@use './common/_nav/_btn/_icon/icon' as *;
+@use './common/_nav/_btn/_text/text' as *;
+@use './common/_qwiz-block/_pagination/pagination' as *;
+@use './common/_qwiz-block/_interactive-menu/interactive-menu' as *;
+
+@use './common/_qwiz-question/qwiz-question' as *;
+@use './common/_qwiz-question/_title/title' as *;
+@use './common/_qwiz-question/_img/img' as *;
+@use './common/_qwiz-question/_answer/answer' as *;
+@use './common/_qwiz-question/_answer/_text/text' as *;
+@use './common/_main-window/main-window' as *;
+@use './common/_checkmark/checkmark' as *;
+@use './common/_gradient/gradient' as *;
+
+@use './common/_qwiz-request/qwiz-request' as *;
+@use './common/_qwiz-request/_title/title' as *;
+@use './common/_qwiz-request/_title/_text/text' as *;
+@use './common/_qwiz-request/_input-block/input-block' as *;
+@use './common/_qwiz-request/_input-block/_input-form/input-form' as *;
+@use './common/_qwiz-request/_input-block/_text/text' as *;
+@use './common/_qwiz-request/_btn/btn' as *;
+@use './common/_qwiz-request/_toggle/toggle' as *;
+@use './common/_qwiz-request/_toggle/_text/text' as *;
+
+.qwiz{
+    background-color: rgba(180, 227, 195, 1);
+
+    &__content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+}

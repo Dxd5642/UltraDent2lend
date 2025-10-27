@@ -1,0 +1,27 @@
+.qwiz{
+    &__question-answers{
+        display: flex;
+        justify-content: space-between;
+
+        &--item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 140px;
+            gap: 10px;
+            display: flex;
+
+            &:hover{
+                & .gradient{
+                    opacity: 1;
+                }
+            }
+
+            &.active{
+                & .checkmark{
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

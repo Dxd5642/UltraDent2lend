@@ -1,0 +1,13 @@
+@use '../../../../../mixins/colors.scss';
+@use '../../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.qwiz{
+    &__question-answer{
+        &--text{
+            @include fonts.Noto-sans(16px, 600, 20px, -0.5px);
+            color: rgba(22, 22, 22, 1);
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.qwiz{
+    &__question{
+        width: 675px;
+        min-width: 675px;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+}

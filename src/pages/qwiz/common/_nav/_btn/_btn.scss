@@ -1,0 +1,96 @@
+.qwiz{
+    &__nav-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 21px;
+        gap: 10px;
+        border-radius: 16px;
+        border: 1px solid rgba(45, 45, 45, 1);
+        background-color: rgba(45, 45, 45, 0);
+
+        &:hover{
+            border-color: rgba(30, 134, 62, 1);
+            & .qwiz__nav-btn--text{
+                color: rgba(30, 134, 62, 1);
+            }
+            & .qwiz__nav-btn--icon{
+                display: none;
+            }
+            & .qwiz__nav-btn--icon_hover{
+                display: block;
+            }
+        }
+
+        &:active{
+            border-color: rgba(30, 134, 62, 0.6);
+            background-color: rgba(30, 134, 62, 0.6);
+            & .qwiz__nav-btn--text{
+                color: rgba(255, 255, 255, 1);
+            }
+            & .qwiz__nav-btn--icon{
+                display: none;
+            }
+            & .qwiz__nav-btn--icon_active{
+                display: block;
+            }
+        }
+
+        &-next{
+            & .qwiz__nav-btn--icon{
+                transform: rotate(180deg);
+            }
+        }
+
+        &.disabled{
+            border-color: unset;
+                & .qwiz__nav-btn--text{
+                    color: unset;
+                }
+                & .qwiz__nav-btn--icon{
+                    display: block;
+                    opacity: 0.5;
+                }
+                & .qwiz__nav-btn--icon_hover{
+                    display: none;
+                }
+                & .qwiz__nav-btn--icon_active{
+                        display: none;
+                    }
+            &:hover{
+                border-color: unset;
+                & .qwiz__nav-btn--text{
+                    color: unset;
+                }
+                & .qwiz__nav-btn--icon{
+                    display: block;
+                    opacity: 0.5;
+                }
+                & .qwiz__nav-btn--icon_hover{
+                    display: none;
+                }
+                & .qwiz__nav-btn--icon_active{
+                        display: none;
+                    }
+            }
+
+            &:active{
+                border-color: unset;
+                background-color: unset;
+                    & .qwiz__nav-btn--text{
+                        color: unset;
+                    }
+                    & .qwiz__nav-btn--icon{
+                        display: block;
+                        opacity: 0.5;
+                    }
+                    & .qwiz__nav-btn--icon_hover{
+                        display: none;
+                    }
+                    & .qwiz__nav-btn--icon_active{
+                        display: none;
+                    }
+                }
+         }
+    }
+}

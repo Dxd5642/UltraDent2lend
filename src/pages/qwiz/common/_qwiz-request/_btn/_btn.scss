@@ -1,0 +1,28 @@
+@use '../../../../mixins/colors.scss';
+@use '../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.qwizRequest{
+    &__btn-send{
+        padding: 10px;
+        border-radius: 16px;
+        border: 1px solid map.get(colors.$colors, secondary);
+        @include fonts.Noto-sans(14px, 500, 20px, -0.5px);
+        color: map.get(colors.$colors, secondary);
+        background-color: rgba(255, 255, 255, 0.0);
+
+        &:hover{
+            background-color: rgba(45, 45, 45, 1);
+            border-color: rgba(45, 45, 45, 1);
+            color: white;
+        }
+
+        &.disabled{
+            opacity: 0.5;
+            background-color: rgba(255, 255, 255, 0);
+            border: 1px solid rgba(68, 67, 80, 0.25);
+            box-shadow: unset;
+            color: rgba(68, 67, 80, 0.50);
+        }
+    }
+}

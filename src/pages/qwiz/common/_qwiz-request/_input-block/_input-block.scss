@@ -1,0 +1,35 @@
+@use '../../../../mixins/colors.scss';
+@use '../../../../mixins/fonts.scss';
+@use 'sass:map';
+
+.qwizRequest{
+    &__input-block{
+        padding: 16px;
+        display: flex;
+        gap: 16px;
+        border-radius: 16px;
+        border: 1px solid map.get(colors.$colors, secondary);
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__input{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+
+        &.unapprecial{
+            & p{
+                color: rgba(224, 42, 66, 1);
+            }
+
+            & input{
+                background-color: rgba(224, 42, 66, 0.1);
+                
+                &::placeholder{
+                    color: rgba(255, 0, 0, 1);
+                }
+            }
+        }
+    }
+}

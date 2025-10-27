@@ -1,0 +1,36 @@
+.qwizRequest{
+    &__toggleAgree{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: center;
+
+        &--togle{
+            border-radius: 12px;
+            width: 40px;
+            height: 20px;
+            background-color: rgba(67, 185, 105, 1);
+            display: flex;
+            align-items: center;
+            padding: 3px;
+            transition: all 0.3s ease-in-out;
+
+            &.disabled{
+                background-color: rgb(180, 33, 33);
+
+                & .qwizRequest__toggleAgree--circle{
+                    margin-left: unset;
+                }
+            }
+        }
+
+        &--circle{
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: white;
+            margin-left: 22px;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}

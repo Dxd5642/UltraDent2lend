@@ -1,0 +1,18 @@
+@use '../../../../../mixins/fonts.scss';
+
+.qwizRequest{
+    &__input-form{
+        padding: 10px 20px;
+        border-radius: 8px;
+        background-color: rgba(45, 45, 45, 0.03);
+        border: 1px solid rgba(45, 45, 45, 0.0);
+        height: 40px;
+        @include fonts.Noto-sans(16px, 400, 20px, -0.5px);
+        color: rgba(45, 45, 45);
+
+        &::placeholder{
+            @include fonts.Noto-sans(16px, 400, 20px, -0.5px);
+            color: rgba(116, 116, 116, 1);
+        }
+    }
+}
